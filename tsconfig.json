@@ -2,8 +2,7 @@
   "include": [
     "**/*",
     "**/.server/**/*",
-    "**/.client/**/*",
-    ".react-router/types/**/*"
+    "**/.client/**/*"
   ],
   "compilerOptions": {
     "lib": ["DOM", "DOM.Iterable", "ES2022"],
