@@ -1,87 +1,74 @@
-# Welcome to React Router!
+# Rezena &nbsp;![Status](https://img.shields.io/badge/status-early--alpha-orange) ![TypeScript](https://img.shields.io/badge/TypeScript-Strict-blue) ![React Router](https://img.shields.io/badge/React%20Router-v7-informational) ![License](https://img.shields.io/badge/license-TBD-lightgrey)
 
-A modern, production-ready template for building full-stack React applications using React Router.
+An AI Powered Applicant Tracking System (ATS) focused on intelligent resume parsing, candidate scoring, and streamlined hiring pipelines.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+(Production URL coming soon.)
+
+<!-- Replace with a real screenshot when UI stabilizes -->
+![Rezena Screenshot Placeholder](/public/screenshot.png "Early interface placeholder")
+
+## Overview
+
+### Tech Stack
+
+- **React 19** (TypeScript)
+- **React Router v7 (SSR)**
+- **Vite**
+- **Tailwind CSS v4**
+- **Zustand**
+- **pdfjs-dist** (Resume text extraction)
+- **Lucide Icons**
+- **Radix UI Slot**
+- **ESLint + Prettier + Husky + lint-staged**
+- **Vitest**
 
 ## Features
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+- Intelligent resume ingestion (PDF baseline – more formats planned)
+- Candidate skill extraction (foundation)
+- Structured candidate model (extensible)
+- Planned semantic + keyword search
+- Planned scoring & ranking pipeline
+- Planned pipeline stages / workflow tracking
+- Modern SSR + fast dev HMR
+- Container-friendly (Dockerfile included)
 
-## Getting Started
+## Planned Capabilities
 
-### Installation
+- Role definitions & required skills matrix
+- Team collaboration (notes, tags, activity log)
+- AI enrichment (LLM-based skill/entity inference)
+- Semantic search (vector embeddings)
+- Configurable scoring weights
+- Authentication & RBAC
+- GDPR-friendly data retention controls
 
-Install the dependencies:
+## Development
 
-```bash
-npm install
-```
+See the [Development Guide](./DEVELOPMENT.md) for setup, contribution workflow, testing, and release notes.
 
-### Development
+## Changelog
 
-Start the development server with HMR:
+See [CHANGELOG.md](./CHANGELOG.md) for notable project changes.
 
-```bash
-npm run dev
-```
+## License
 
-Your application will be available at `http://localhost:5173`.
+Licensed under the [MIT license](./LICENSE).
 
-## Building for Production
+If you reuse this project, please remove any personal metadata and clearly declare your own license.
 
-Create a production build:
+## Contact
 
-```bash
-npm run build
-```
+- **GitHub:** [@ApzHuss](https://github.com/ApzHuss)
+- **Email:** [Azalaamhuss@gmail.com](mailto:Azalaamhuss@gmail.com)
 
-## Deployment
+## Acknowledgments
 
-### Docker Deployment
+- [React](https://react.dev)
+- [React Router](https://reactrouter.com)
+- [Tailwind CSS](https://tailwindcss.com)
+- [Lucide](https://lucide.dev)
+- [pdfjs-dist](https://github.com/mozilla/pdfjs-dist)
+- And other libraries listed in [`package.json`](./package.json)
 
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+### Made with ❤️ by Abdisalaan H. Abdi
